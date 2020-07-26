@@ -7,7 +7,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.to_set << brand
+    BRANDS << brand
+    BRANDS.to_set
   end
 
   def cobble
